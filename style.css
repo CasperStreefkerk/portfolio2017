@@ -59,6 +59,10 @@ nav a {
     z-index: -5;
 }
 
+header {
+    height: 100vh;
+}
+
 header img {
     width: 100%;
     height: auto;
@@ -75,17 +79,203 @@ header img {
     font-weight: 500;
 }
 
-.callOut span {
+.colorPoint {
     color: #ef0d33;
 }
 
 /* Content */
-.content {
-    background-color: #e74c3c;
+/*
+ABOUT
+ */
+.content .aboutBlock {
+    -webkit-transition: margin 0.2s ease-out;
+    -moz-transition: margin 0.2s ease-out;
+    -o-transition: margin 0.2s ease-out;
+    transition: margin 0.2s ease-out;
+}
+
+.content .aboutBlock:hover {
+    margin-top: -10px;
+}
+
+.content .aboutBlock .aboutContent {
+    background: #f5f5f5;
+    height: 400px;
+    padding: 50px 15px 15px 15px;
+}
+
+.content .aboutBlock .aboutContent i {
+    color: #ef0d33;
+    font-size: 92px;
+    margin-bottom: 30px;
+}
+
+.subTitle {
+    color: #808080;
+}
+
+.sectionTitle {
+    margin-bottom: 50px;
+}
+
+.content .buttonRow {
+    margin-top: 50px;
+}
+
+.content .buttonRow .ctaButton {
+    background: #ef0d33;
+    color: #ffffff;
+    padding: 20px 120px 20px 120px;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.content .buttonRow .ctaButton:hover {
+    background: #111517;
+    color: #ffffff;
+}
+
+.content .textField {
+    border: 1px solid #f5f5f5;
+    width: 236px;
+    line-height: 16px;
+    font-size: 16px;
+    height: 50px;
+}
+
+.content .sendBtn {
+    background: #ef0d33;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.content .sendBtn:hover {
+    background: #111517;
+    color: #ffffff;
+}
+
+.emailRow {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+/*
+WORK
+ */
+.workContent .titleRow, .contactContent .titleRow {
+    background: #111517;
+
+}
+
+.workContent h2, .contactContent h2 {
+    color: #ffffff;
+}
+
+.workContent p, .contactContent p {
+    color: #808080;
+}
+
+/*
+CONTACT
+ */
+.contactContent {
+    background: #111517;
+    padding-bottom: 20px;
+}
+
+.contactContent img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contactContent .moreAboutContent p {
+    color: #ffffff;
+}
+
+/*
+CONTACT FORM
+ */
+
+.contactFormContent {
+    margin-top: 15px;
+}
+
+.contactFormContent p {
+    color: #808080;
+}
+
+.contactForm {
+    margin-top: 50px;
+}
+
+.contactForm input, .contactForm textarea {
+    border: 2px solid #f5f5f5;
+    font-size: 19px;
+    line-height: 19px;
+    width: 50%;
+    display: inline-block;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.contactForm input {
+    height: 50px;
+    outline: none;
+}
+
+.contactForm textarea {
+    resize: none;
+}
+
+.contactForm input:focus {
+    border: none;
+    box-shadow: none;
+
+}
+
+.contactForm button {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border: none;
+    background: #ef0d33;
+    color: #ffffff;
+    height: 50px;
+    border-radius: 0;
+    font-size: 19px;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactForm button:hover {
+    background: #111517;
+    color: #ffffff;
+}
+
+.contactForm button i {
+    margin-left: 5px;
 }
 
 /* Footer */
-#footer {
+footer {
     height: 60px;
-    background-color: #f5f5f5;
+    background-color: #111517;
+    color: #808080;
+    margin-bottom: -60px;
+    margin-top: 50px;
+    padding-top: 15px;
+    font-size: 12px;
 }

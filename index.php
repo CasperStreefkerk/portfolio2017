@@ -31,33 +31,149 @@
             <a href="#" class="logo">Casper Streefkerk</a>
             <nav>
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Work</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
             </nav>
+    </div>
+
+    <div class="container-fluid">
+        <div class="callOut text-center">
+            <p>I create web experiences<span class="colorPoint">.</span></p>
+        </div>
     </div>
 </header>
 
-<div class="container-fluid">
-    <div class="callOut text-center">
-        <p>I create web experiences<span>.</span></p>
-    </div>
-</div>
+
 
 <div id="wrap">
-    <div class="container content">
-        <h1>Hello, world!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis quisquam quod totam veniam? Amet beatae
-            blanditiis explicabo illo incidunt inventore maiores necessitatibus nihil porro possimus, sint totam velit
-            voluptate.</p>
+    <div id="about" class="container content">
+        <div class="row sectionTitle">
+            <div class="col-xs-12 text-center">
+                <h2>What am i good at<span class="colorPoint">.</span></h2>
+                <p class="subTitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 aboutBlock">
+                <div class="aboutContent text-center">
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                    <h2>UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet ea ipsum odio placeat quas
+                        saepe voluptatem? Cumque debitis laudantium, molestiae mollitia nihil obcaecati odio omnis
+                        placeat porro tempora temporibus?
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 aboutBlock">
+                <div class="aboutContent text-center">
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                    <h2>Webdevelopment</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet ea ipsum odio placeat quas
+                        saepe voluptatem? Cumque debitis laudantium, molestiae mollitia nihil obcaecati odio omnis
+                        placeat porro tempora temporibus?
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 aboutBlock">
+                <div class="aboutContent text-center">
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                    <h2>Online Strategy</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet ea ipsum odio placeat quas
+                        saepe voluptatem? Cumque debitis laudantium, molestiae mollitia nihil obcaecati odio omnis
+                        placeat porro tempora temporibus?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row buttonRow">
+            <div class="col-xs-12 text-center">
+                <a href="#emailInputField" class="ctaButton collapsed" data-toggle="collapse" aria-expanded="false">Let's get started!</a>
+            </div>
+        </div>
+
+        <div class="row emailRow">
+            <div class="col-xs-12 text-center">
+                <div id="emailInputField" class="row emailInput collapse" aria-expanded="false">
+                    <form id="productMailForm" class="col-xs-12" name="infoMailForm" action="" method="post" data-toggle="validator" role="form" novalidate="true">
+
+                        <div class="alert hide"></div>
+                        <div class="form-group">
+                            <input id="infoMailForm-email" class="textField" name="email" type="email" value="" placeholder="E-mailadres" required="">
+                            <button type="submit" class="sendBtn form-submit" style="pointer-events: all; cursor: pointer;">Verstuur</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div id="work" class="container-fluid workContent">
+        <div class="row">
+            <div class="col-xs-12 text-center titleRow">
+                <h2>Projects I've done<span class="colorPoint">.</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        Content
+    </div>
+
+    <div id="contact" class="container-fluid contactContent">
+        <div class="row">
+            <div class="col-xs-12 text-center titleRow">
+                <h2>More about me<span class="colorPoint">.</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <img src="images/foto.png" alt="Casper Streefkerk">
+            </div>
+        </div>
+        <div class="container moreAboutContent">
+            <div class="col-xs-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores aspernatur
+                    aut doloribus esse est excepturi explicabo fuga harum ipsa iure iusto minus, mollitia neque,
+                    obcaecati recusandae repudiandae, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Animi consequuntur distinctio dolor eligendi eveniet expedita harum inventore ipsa labore
+                    necessitatibus neque porro, praesentium rerum sunt suscipit tenetur unde voluptatum? Illo.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet commodi consectetur
+                    consequuntur cum debitis, dolore facilis fugit hic, magnam molestiae nam obcaecati omnis, porro
+                    quia quod rem vel voluptatibus?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contactFormContent">
+        <div class="col-xs-12 text-center">
+            <h2>Say hello<span class="colorPoint">.</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <form class="contactForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="" placeholder="Naam">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="" placeholder="Bedrijfsnaam">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="" placeholder="E-mailadres">
+                </div>
+                <textarea class="form-control" rows="6" placeholder="Boodschap"></textarea>
+                <button type="submit" class="btn btn-default">Verstuur! <i class="fa fa-paper-plane"></i> </button>
+            </form>
+        </div>
+    </div>
+
 </div>
 
 <div class="push"></div>
 
 <footer class="footer">
-    <div class="container">
-        Footer informatie
+    <div class="container text-center">
+        <p>Copyright &copy; 2017 | Casper Streefkerk</p>
     </div>
 </footer>
 

@@ -10,7 +10,10 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Custom libs -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,21 +23,32 @@
     <![endif]-->
 </head>
 <body>
-<div id="wrap">
-    <div class="container">
-        <a href="#">Casper Streefkerk</a>
+<header>
+    <div class="container-fluid">
+        <div class="mainImage">
+            <img src="images/header.jpg" alt="Casper Streefkerk">
+        </div>
+        <a href="#" class="logo">Casper Streefkerk</a>
         <nav>
+            <a href="#">Home</a>
             <a href="#">About</a>
-            <a href="#">Portfolio</a>
+            <a href="#">Work</a>
             <a href="#">Contact</a>
         </nav>
-        <h1>Hello, world!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis quisquam quod totam veniam? Amet beatae
-            blanditiis explicabo illo incidunt inventore maiores necessitatibus nihil porro possimus, sint totam velit
-            voluptate.</p>
     </div>
+</header>
+<div class="callOut text-center">
+    <p>I create web experiences<span>.</span></p>
 </div>
-
+<!--<div id="wrap">-->
+<!--    <div class="container content">-->
+<!--        <h1>Hello, world!</h1>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis quisquam quod totam veniam? Amet beatae-->
+<!--            blanditiis explicabo illo incidunt inventore maiores necessitatibus nihil porro possimus, sint totam velit-->
+<!--            voluptate.</p>-->
+<!--    </div>-->
+<!--</div>-->
+<div class="push"></div>
 <footer class="footer">
     <div class="container">
         Footer informatie

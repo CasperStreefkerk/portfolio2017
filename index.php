@@ -24,36 +24,43 @@
 </head>
 <body>
 <header>
+    <div class="mainImage">
+        <img src="images/header.jpg" alt="Casper Streefkerk">
+    </div>
     <div class="container-fluid">
-        <div class="mainImage">
-            <img src="images/header.jpg" alt="Casper Streefkerk">
-        </div>
-        <a href="#" class="logo">Casper Streefkerk</a>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Work</a>
-            <a href="#">Contact</a>
-        </nav>
+            <a href="#" class="logo">Casper Streefkerk</a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Work</a>
+                <a href="#">Contact</a>
+            </nav>
     </div>
 </header>
-<div class="callOut text-center">
-    <p>I create web experiences<span>.</span></p>
+
+<div class="container-fluid">
+    <div class="callOut text-center">
+        <p>I create web experiences<span>.</span></p>
+    </div>
 </div>
-<!--<div id="wrap">-->
-<!--    <div class="container content">-->
-<!--        <h1>Hello, world!</h1>-->
-<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis quisquam quod totam veniam? Amet beatae-->
-<!--            blanditiis explicabo illo incidunt inventore maiores necessitatibus nihil porro possimus, sint totam velit-->
-<!--            voluptate.</p>-->
-<!--    </div>-->
-<!--</div>-->
+
+<div id="wrap">
+    <div class="container content">
+        <h1>Hello, world!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos omnis quisquam quod totam veniam? Amet beatae
+            blanditiis explicabo illo incidunt inventore maiores necessitatibus nihil porro possimus, sint totam velit
+            voluptate.</p>
+    </div>
+</div>
+
 <div class="push"></div>
+
 <footer class="footer">
     <div class="container">
         Footer informatie
     </div>
 </footer>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

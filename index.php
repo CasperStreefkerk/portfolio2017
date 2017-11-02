@@ -33,13 +33,16 @@
         <img src="images/header.jpg" alt="Casper Streefkerk">
     </div>
     <div class="container-fluid">
-            <a href="#" class="logo">Casper Streefkerk</a>
+        <div class="stickyHeader">
+            <a href="#" class="logo">Casper</a>
             <nav>
-                <a href="#">Home</a>
-                <a href="#about">About</a>
-                <a href="#work">Work</a>
-                <a href="#contact">Contact</a>
+                <a href="#" class="active"><span>Home</span></a>
+                <a href="#skills"><span>Skills</span></a>
+                <a href="#work"><span>Work</span></a>
+                <a href="#about"><span>About</span></a>
+                <a href="#contact"><span>Contact</span></a>
             </nav>
+        </div>
     </div>
     <div class="container-fluid">
         <div class="callOut text-center">
@@ -50,10 +53,10 @@
 
 <div id="wrap">
 
-    <div id="about" class="container content">
+    <div id="skills" class="container content">
         <div class="row sectionIntro">
             <div class="col-xs-12 col-sm-3">
-                <h2><span class="sectionTitle">ABOUT</span><span class="colorPoint">.</span></h2>
+                <h2><span class="sectionTitle">SKILLS</span><span class="colorPoint">.</span></h2>
             </div>
             <div class="col-xs-12 col-sm-9">
                 <p class="shortAbout">Hi, ik ben <span>Casper Streefkerk</span> en doe niets liever dan toffe digitale
@@ -64,21 +67,22 @@
         <div class="row">
             <div class="col-sm-6 col-md-3 aboutBlock">
                 <div class="aboutContent">
-                    <i class="fa fa-rocket" aria-hidden="true"></i>
-                    <h2>UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet ea ipsum odio placeat quas
-                        saepe voluptatem? Cumque debitis laudantium, molestiae mollitia nihil obcaecati odio omnis
-                        placeat porro tempora temporibus?
+                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                    <h2>Graphic work</h2>
+                    <p>Uw reclame uitingen moeten van dezelfde kwaliteit zijn als uw werk en moeten vertrouwen
+                        uitstralen naar uw klante toe. Ik heb ervaring met het ontwerpen van grafisch werk voor
+                        verschillende branches. U kunt bij mij onder andere terecht voor visitekaartjes, posters, flyers
+                        of grote banners.
                     </p>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3 aboutBlock">
                 <div class="aboutContent">
-                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                    <i class="fa fa-code" aria-hidden="true"></i>
                     <h2>Webdevelopment</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet ea ipsum odio placeat quas
-                        saepe voluptatem? Cumque debitis laudantium, molestiae mollitia nihil obcaecati odio omnis
-                        placeat porro tempora temporibus?
+                    <p>Als u op wilt vallen tussen de duizenden websites heeft u er eentje nodig die opvalt en goed
+                        gevonden wordt. Voor zowel SEO als het ontwerpen en bouwen van uw website kan ik u van dienst
+                        zijn.
                     </p>
                 </div>
             </div>
@@ -86,19 +90,19 @@
                 <div class="aboutContent">
                     <i class="fa fa-rocket" aria-hidden="true"></i>
                     <h2>Online Strategy</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet ea ipsum odio placeat quas
-                        saepe voluptatem? Cumque debitis laudantium, molestiae mollitia nihil obcaecati odio omnis
-                        placeat porro tempora temporibus?
+                    <p>Een strategie bepalen voor uw business is essentieel voor uw succes. Hoe presenteer ik mezelf?
+                        Wat zijn de juiste keuzes die ik moet maken? Via welke kanalen ga ik mijn klanten bereiken en
+                        hoe pak ik dit aan? Gebruik mijn kennis en ervaring om antwoord te krijgen op deze vragen!
                     </p>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3 aboutBlock">
                 <div class="aboutContent">
-                    <i class="fa fa-rocket" aria-hidden="true"></i>
-                    <h2>Online Strategy</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet ea ipsum odio placeat quas
-                        saepe voluptatem? Cumque debitis laudantium, molestiae mollitia nihil obcaecati odio omnis
-                        placeat porro tempora temporibus?
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    <h2>Consultancy</h2>
+                    <p>Als u zelf niet thuis bent in de online wereld kan ik u helpen om advies te geven waar u
+                        dat nodig heeft. Ik kan u helpen bij het opzetten van uw online branding of adviseren over
+                        de verschillende soorten software die verkrijbaar zijn.
                     </p>
                 </div>
             </div>
@@ -348,17 +352,17 @@
         </div>
     </div>
 
-    <div id="contact" class="container contactContent">
+    <div id="about" class="container contactContent">
         <div class="row">
             <div class="col-xs-12 titleRow">
-                <h2><span class="sectionTitle">MORE ABOUT ME</span><span class="colorPoint">.</span></h2>
+                <h2><span class="sectionTitle">ABOUT</span><span class="colorPoint">.</span></h2>
             </div>
         </div>
         <div class="row moreAboutRow">
-            <div class="col-xs-3">
+            <div class="col-xs-12 col-sm-3">
                 <img src="images/foto.png" alt="Casper Streefkerk">
             </div>
-            <div class="col-xs-9 moreAboutContent">
+            <div class="col-xs-12 col-sm-9 moreAboutContent">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores aspernatur
                     aut doloribus esse est excepturi explicabo fuga harum ipsa iure iusto minus, mollitia neque,
                     obcaecati recusandae repudiandae, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -372,7 +376,7 @@
         </div>
     </div>
 
-    <div class="container contactFormContent">
+    <div id="contact" class="container contactFormContent">
 <!--        <div class="row">-->
 <!--            <div class="col-xs-12">-->
 <!--                <h2><span class="sectionTitle">SAY HELLO</span><span class="colorPoint">.</span></h2>-->
@@ -382,25 +386,25 @@
         <div class="row contactRow">
             <div class="col-xs-12 col-md-5">
                 <h2><span class="sectionTitle">SAY HELLO</span><span class="colorPoint">.</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Twijfel niet om mij een mailtje te sturen als u uw idee&euml;n wilt bespreken!</p>
                 <div class="contactDetails">
                     <p><i class="fa fa-home"></i> Groeneweg 14, Puttershoek</p>
-                    <p><i class="fa fa-mobile"></i> +31 6 53604159</p>
-                    <p><i class="fa fa-envelope-o"></i> contact@casperstreefkerk.nl</p>
+                    <p><i class="fa fa-phone"></i> +31 6 53604159</p>
+                    <p><i class="fa fa-at"></i> contact@casperstreefkerk.nl</p>
                 </div>
             </div>
             <div class="col-xs-12 col-md-7">
                 <form class="contactForm">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="" placeholder="Naam">
+                        <input type="text" class="form-control" id="" placeholder="Naam*">
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" id="" placeholder="Bedrijfsnaam">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="" placeholder="E-mailadres">
+                        <input type="text" class="form-control" id="" placeholder="E-mailadres*">
                     </div>
-                    <textarea class="form-control" rows="6" placeholder="Boodschap"></textarea>
+                    <textarea class="form-control" rows="6" placeholder="Boodschap*"></textarea>
                     <button type="submit" class="btn btn-default">Verstuur! <i class="fa fa-paper-plane"></i> </button>
                 </form>
             </div>
@@ -441,8 +445,11 @@
 <!-- load cubeportfolio jQuery plugin -->
 <script type="text/javascript" src="libs/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 
+<script type="text/javascript" src="libs/jquery.easeScroll.js"></script>
+
 <!-- init cubeportfolio -->
 <script type="text/javascript" src="js/main.js"></script>
+
 
 </body>
 </html>

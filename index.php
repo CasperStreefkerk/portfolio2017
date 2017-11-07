@@ -28,13 +28,13 @@
 </head>
 <body>
 
-<header>
+<header class="homeHeader">
     <div class="mainImage">
         <img src="images/header.jpg" alt="Casper Streefkerk">
     </div>
     <div class="container-fluid">
         <div class="stickyHeader">
-            <a href="#" class="logo">Casper</a>
+            <a href="#" class="logo">Casper Streefkerk<span class="colorPoint">.</span></a>
             <nav>
                 <a href="#" class="active"><span>Home</span></a>
                 <a href="#skills"><span>Skills</span></a>
@@ -177,7 +177,7 @@
                     <div class="cbp-item web-design">
                         <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/a78bc9" class="cbp-caption cbp-lightbox" data-title="The Gang Blue<br>by Cosmin Capitanu">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/4730d3" alt="">
+                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x570/4730d3" alt="">
                             </div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
@@ -192,7 +192,7 @@
                     <div class="cbp-item graphic identity">
                         <a href="https://www.youtube.com/watch?v=3wbvpOIIBQA" class="cbp-caption cbp-lightbox" data-title="Tiger<br>by Cosmin Capitanu">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/296f2c" alt="">
+                                <img src="http://scriptpie.com/cubeportfolio/img/?i=1920x1080/296f2c" alt="">
                             </div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
@@ -204,141 +204,141 @@
                             </div>
                         </a>
                     </div>
-                    <div class="cbp-item graphic">
-                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/6eee29" class="cbp-caption cbp-lightbox" data-title="Flat Roman Typeface Ui<br>by Cosmin Capitanu">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x570/0d87e0" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title">Flat Roman</div>
-                                        <div class="cbp-l-caption-desc">by Cosmin Capitanu</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cbp-item identity">
-                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/701d46" class="cbp-caption cbp-lightbox" data-title="Seemple* Music<br>by Tiberiu Neamu">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x570/0fb6fc" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title">Seemple* Music</div>
-                                        <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cbp-item graphic">
-                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/2c0110" class="cbp-caption cbp-lightbox" data-title="Remind~Me More<br>by Tiberiu Neamu">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/cca519" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title">Remind~Me More</div>
-                                        <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cbp-item web-design">
-                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/8d285b" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/2dcd64" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title">Workout Buddy</div>
-                                        <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cbp-item identity">
-                        <a href="http://vimeo.com/156783#" class="cbp-caption cbp-lightbox" data-title="Volume Knob<br>by Paul Flavius Nechita">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/8ef4af" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title">Volume Knob</div>
-                                        <div class="cbp-l-caption-desc">by Paul Flavius Nechita</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cbp-item identity">
-                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/edd61b" class="cbp-caption cbp-lightbox" data-title="Ski * Buddy<br>by Tiberiu Neamu">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x570/8c6fd2" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title">Ski * Buddy</div>
-                                        <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cbp-item web-design graphic">
-                        <a href="https://www.youtube.com/watch?v=dChhzNGHgnA" class="cbp-caption cbp-lightbox" data-title="Virtualization Icon<br>by Paul Flavius Nechita">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/517c33" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title">Virtualization Icon</div>
-                                        <div class="cbp-l-caption-desc">by Paul Flavius Nechita</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cbp-item web-design graphic">
-                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/76aa9a" class="cbp-caption cbp-lightbox" data-title="World Clock<br>by Paul Flavius Nechita">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/d6f179" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title">World Clock</div>
-                                        <div class="cbp-l-caption-desc">by Paul Flavius Nechita</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cbp-item web-design graphic">
-                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/747b7e" class="cbp-caption cbp-lightbox" data-title="Sickpuppy<br>by Cosmin Capitanu">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/d4c25d" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title">Sickpuppy</div>
-                                        <div class="cbp-l-caption-desc">by Cosmin Capitanu</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+<!--                    <div class="cbp-item graphic">-->
+<!--                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/6eee29" class="cbp-caption cbp-lightbox" data-title="Flat Roman Typeface Ui<br>by Cosmin Capitanu">-->
+<!--                            <div class="cbp-caption-defaultWrap">-->
+<!--                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x570/0d87e0" alt="">-->
+<!--                            </div>-->
+<!--                            <div class="cbp-caption-activeWrap">-->
+<!--                                <div class="cbp-l-caption-alignCenter">-->
+<!--                                    <div class="cbp-l-caption-body">-->
+<!--                                        <div class="cbp-l-caption-title">Flat Roman</div>-->
+<!--                                        <div class="cbp-l-caption-desc">by Cosmin Capitanu</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="cbp-item identity">-->
+<!--                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/701d46" class="cbp-caption cbp-lightbox" data-title="Seemple* Music<br>by Tiberiu Neamu">-->
+<!--                            <div class="cbp-caption-defaultWrap">-->
+<!--                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x570/0fb6fc" alt="">-->
+<!--                            </div>-->
+<!--                            <div class="cbp-caption-activeWrap">-->
+<!--                                <div class="cbp-l-caption-alignCenter">-->
+<!--                                    <div class="cbp-l-caption-body">-->
+<!--                                        <div class="cbp-l-caption-title">Seemple* Music</div>-->
+<!--                                        <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="cbp-item graphic">-->
+<!--                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/2c0110" class="cbp-caption cbp-lightbox" data-title="Remind~Me More<br>by Tiberiu Neamu">-->
+<!--                            <div class="cbp-caption-defaultWrap">-->
+<!--                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/cca519" alt="">-->
+<!--                            </div>-->
+<!--                            <div class="cbp-caption-activeWrap">-->
+<!--                                <div class="cbp-l-caption-alignCenter">-->
+<!--                                    <div class="cbp-l-caption-body">-->
+<!--                                        <div class="cbp-l-caption-title">Remind~Me More</div>-->
+<!--                                        <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="cbp-item web-design">-->
+<!--                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/8d285b" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">-->
+<!--                            <div class="cbp-caption-defaultWrap">-->
+<!--                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/2dcd64" alt="">-->
+<!--                            </div>-->
+<!--                            <div class="cbp-caption-activeWrap">-->
+<!--                                <div class="cbp-l-caption-alignCenter">-->
+<!--                                    <div class="cbp-l-caption-body">-->
+<!--                                        <div class="cbp-l-caption-title">Workout Buddy</div>-->
+<!--                                        <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="cbp-item identity">-->
+<!--                        <a href="http://vimeo.com/156783#" class="cbp-caption cbp-lightbox" data-title="Volume Knob<br>by Paul Flavius Nechita">-->
+<!--                            <div class="cbp-caption-defaultWrap">-->
+<!--                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/8ef4af" alt="">-->
+<!--                            </div>-->
+<!--                            <div class="cbp-caption-activeWrap">-->
+<!--                                <div class="cbp-l-caption-alignCenter">-->
+<!--                                    <div class="cbp-l-caption-body">-->
+<!--                                        <div class="cbp-l-caption-title">Volume Knob</div>-->
+<!--                                        <div class="cbp-l-caption-desc">by Paul Flavius Nechita</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="cbp-item identity">-->
+<!--                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/edd61b" class="cbp-caption cbp-lightbox" data-title="Ski * Buddy<br>by Tiberiu Neamu">-->
+<!--                            <div class="cbp-caption-defaultWrap">-->
+<!--                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x570/8c6fd2" alt="">-->
+<!--                            </div>-->
+<!--                            <div class="cbp-caption-activeWrap">-->
+<!--                                <div class="cbp-l-caption-alignCenter">-->
+<!--                                    <div class="cbp-l-caption-body">-->
+<!--                                        <div class="cbp-l-caption-title">Ski * Buddy</div>-->
+<!--                                        <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="cbp-item web-design graphic">-->
+<!--                        <a href="https://www.youtube.com/watch?v=dChhzNGHgnA" class="cbp-caption cbp-lightbox" data-title="Virtualization Icon<br>by Paul Flavius Nechita">-->
+<!--                            <div class="cbp-caption-defaultWrap">-->
+<!--                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/517c33" alt="">-->
+<!--                            </div>-->
+<!--                            <div class="cbp-caption-activeWrap">-->
+<!--                                <div class="cbp-l-caption-alignCenter">-->
+<!--                                    <div class="cbp-l-caption-body">-->
+<!--                                        <div class="cbp-l-caption-title">Virtualization Icon</div>-->
+<!--                                        <div class="cbp-l-caption-desc">by Paul Flavius Nechita</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="cbp-item web-design graphic">-->
+<!--                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/76aa9a" class="cbp-caption cbp-lightbox" data-title="World Clock<br>by Paul Flavius Nechita">-->
+<!--                            <div class="cbp-caption-defaultWrap">-->
+<!--                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/d6f179" alt="">-->
+<!--                            </div>-->
+<!--                            <div class="cbp-caption-activeWrap">-->
+<!--                                <div class="cbp-l-caption-alignCenter">-->
+<!--                                    <div class="cbp-l-caption-body">-->
+<!--                                        <div class="cbp-l-caption-title">World Clock</div>-->
+<!--                                        <div class="cbp-l-caption-desc">by Paul Flavius Nechita</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="cbp-item web-design graphic">-->
+<!--                        <a href="http://scriptpie.com/cubeportfolio/img/?i=1200x900/747b7e" class="cbp-caption cbp-lightbox" data-title="Sickpuppy<br>by Cosmin Capitanu">-->
+<!--                            <div class="cbp-caption-defaultWrap">-->
+<!--                                <img src="http://scriptpie.com/cubeportfolio/img/?i=380x360/d4c25d" alt="">-->
+<!--                            </div>-->
+<!--                            <div class="cbp-caption-activeWrap">-->
+<!--                                <div class="cbp-l-caption-alignCenter">-->
+<!--                                    <div class="cbp-l-caption-body">-->
+<!--                                        <div class="cbp-l-caption-title">Sickpuppy</div>-->
+<!--                                        <div class="cbp-l-caption-desc">by Cosmin Capitanu</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -347,7 +347,7 @@
     <div id="callOut" class="container-fluid">
         <div class="row">
             <div class="col-xs-12 callOutRow text-center">
-                <p>"Een hele mooie slogan of quote die super inspirerend is."</p>
+                <p>"There are three responses to a piece of design - yes, no and WOW! Wow is the one to aim for."</p>
             </div>
         </div>
     </div>

@@ -44,7 +44,7 @@ a.logo {
 }
 
 /* HEADER */
-header .stickyHeader {
+.homeHeader .stickyHeader, .portfolioHeader .stickyHeader {
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -107,12 +107,12 @@ nav a:hover {
     z-index: -5;
 }
 
-header {
+.homeHeader {
     height: 100vh;
     /*max-height: 1120px;*/
 }
 
-header img {
+.homeHeader img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -122,7 +122,7 @@ header img {
     z-index: -5;
 }
 
-header .logoImage {
+.homeHeader .logoImage {
     width: 10%;
     height: 10%;
 }
@@ -168,7 +168,7 @@ p.shortAbout span {
 }
 
 .content .aboutBlock {
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 @media (min-width: 425px) and (max-width: 769px) {
@@ -185,7 +185,8 @@ p.shortAbout span {
 }
 
 .content .aboutBlock .aboutContent:hover {
-    margin-top: -10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
 
 .content .aboutBlock .aboutContent:before {
@@ -212,7 +213,7 @@ p.shortAbout span {
     /*background: #f5f5f5;*/
     /*height: 400px;*/
     /*padding: 50px 15px 15px 15px;*/
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 
 .content .aboutBlock .aboutContent i {
@@ -407,7 +408,7 @@ CONTACT FORM
 }
 
 .contactFormContent .contactRow {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
 
 .contactFormContent p {
@@ -572,4 +573,61 @@ footer {
         float: none;
         text-align: center;
     }
+}
+
+/* -----------------------------PROJECT PAGE----------------------------- */
+
+.bottomNavigation {
+    height: 100px;
+    background: #f5f5f5;
+    line-height: 100px;
+}
+
+.bottomNavigation i {
+    color: #ef0d33;
+}
+
+.bottomNavigation .previousButton {
+    float: left;
+}
+
+.bottomNavigation .previousButton i {
+    margin-right: 10px;
+}
+
+.bottomNavigation .homeButton {
+    text-align: center;
+}
+
+.bottomNavigation .nextButton {
+    text-align: right;
+}
+
+.bottomNavigation .nextButton i {
+    margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+    .bottomNavigation{
+        font-size: 14px;
+    }
+}
+
+#projectDetail .projectTitle p {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#projectDetail .projectTitle p i {
+    color: #ef0d33;
+}
+
+#projectDetail .projectMainImage {
+    margin-top: 20px;
+}
+
+#projectDetail .projectText {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 50px;
 }
